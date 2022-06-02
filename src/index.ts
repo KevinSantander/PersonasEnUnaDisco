@@ -1,7 +1,7 @@
 const personas: number = 270;
 let arreglo: number[] = new Array(personas);
-const mayores: number = 40;
 const menores: number = 18;
+const mayores: number = 40;
 let menor21: number = 0;
 let mayor21: number = 0;
 
@@ -20,8 +20,8 @@ for (let indice = 0; indice < personas; indice++) {
     mayor21++;
   }
 }
-console.log("la cantidad de personas menores de 21 años es: " + menor21);
-console.log("la cantidad de personas mayores de 21 años es: " + mayor21);
 console.log(
+  "la cantidad de personas menores de 21 años es: " + menor21,
+  "la cantidad de personas mayores de 21 años es: " + mayor21,
   "la cantidad de personas que ingresaron al boliche son: " + personas
 );
