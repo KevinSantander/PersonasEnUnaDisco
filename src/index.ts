@@ -6,7 +6,7 @@ let menor21: number = 0;
 let mayor21: number = 0;
 
 function personasRandom(): number {
-  return Math.floor(Math.random() * (mayores - menores) + menores);
+  return Math.floor(Math.random() * mayores - menores + menores);
 }
 
 for (let indice = 0; indice < personas; indice++) {
